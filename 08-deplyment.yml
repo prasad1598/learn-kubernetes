@@ -15,16 +15,3 @@ spec:
       containers:
         - name: php-redis
           image: nginx
----
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx
-  labels:
-    tier: frontend
-spec:
-  containers:
-    - name: nginx
-      image: nginx:1.14.2
-      ports:
-        - containerPort: 80
