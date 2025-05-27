@@ -3,7 +3,6 @@ kind: namespace
 metadata:
   name: test
 ---
-
 apiVersion: v1
 kind: Pod
 metadata:
