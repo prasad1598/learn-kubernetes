@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx
-  lables:
+  labels:
     podName: nginx-01
 spec:
   containers:
