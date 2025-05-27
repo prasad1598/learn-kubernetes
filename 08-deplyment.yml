@@ -13,5 +13,5 @@ spec:
         tier: frontend
     spec:
       containers:
-        - name: nginx
+        - name: php-redis
           image: nginx1.14.2
