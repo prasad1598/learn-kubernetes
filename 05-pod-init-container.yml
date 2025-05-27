@@ -7,7 +7,7 @@ metadata:
 spec:
   initContainers:
     - name: debug
-      image: ocker.io/rkalluru/learnk8s:init-container-html-generator
+      image: docker.io/rkalluru/learnk8s:init-container-html-generator
       volumeMounts:
         - name: html
           mountPath: /mnt
