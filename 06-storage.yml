@@ -11,7 +11,6 @@ spec:
       volumeMounts:
         - name: html
           mountPath: /usr/share/nginx/html
-  containers:
     - name: debug
       image: rkalluru/learnk8s:rhel9-bare
       volumeMounts:
