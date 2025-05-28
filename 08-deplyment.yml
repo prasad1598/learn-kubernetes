@@ -3,7 +3,8 @@ kind: Deployment
 metadata:
   name: deployment
 spec:
-  replicas: 15
+  minReadySeconds: 20
+  replicas: 5
   selector:
     matchLabels:
       tier: frontend
